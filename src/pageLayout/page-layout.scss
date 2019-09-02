@@ -5,7 +5,31 @@
 #components-layout-demo-top-side-2 .logo {
   width: 120px;
   height: 31px;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgb(246, 243, 243);
   margin: 16px 28px 16px 0;
   float: left;
+}
+.ant-menu-dark,.ant-layout-header{
+  background:#ffffff;
+  height: 85px;
+  display: flex;
+  align-items: center;
+}
+.ant-menu-dark .ant-menu-item{
+  color: #000;
+  border-radius:30px;
+  width:120px;
+  margin:0 20px;
+  height: 40px;
+  line-height:40px;
+  text-align: center;
+}
+.ant-menu-dark .ant-menu-item-selected{
+  color: #fff;
+}
+.logo{
+  width:302px;
+  height:50px;
+  background:url('./logo.jpg') no-repeat center;
+  background-size:cover;
 }
